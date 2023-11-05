@@ -1,44 +1,98 @@
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
+    /* display: inline; */
 }
 
 .header{
     display: flex;
     background-color: rgb(6, 23, 38);
     color: white;
-    font-size: xx-small;
+    font-size: 12px;
     margin: 0;
     padding: 10px 0px 20px 10px;
 }
 .header__img{
-    height: 70px;
-    margin: 10px;
-    /* margin-left: 20px; */
+    height: 95px;
+    margin-top: 12px;
+    margin-right: 10px;
+    margin-left: 20px;
 }
 h1{
     display: flex;
     padding-right: 400px;
-    /* display: flex; */
     align-items: flex-end;
 }
 .firstSection__img{
     width: 100%;
 }
 .firstSection__main{
+    /* display: flex; */
+    /* flex-direction: column; */
     text-align: center;
+    align-self: center;
+    /* margin-bottom: 50px; */
 }
 .firstSection__blueButton{
     border: solid #8acfe5;
     border-radius: 5px;
     font-weight: bold;
-    font-size: large;
+    font-size: larger;
     padding: 15px;
     margin: 20px 80px;
     background-color: #8acfe5;
+    width: fit-content;
+
 }
 .firstSection__link{
     font-size: 11px;
     color: #36769d;
     font-weight: bold;
+}
+.firstSection__quotes{
+    margin: 20px;
+    display: flex;
+    text-align: left;
+}
+.firstSection__quoteImage{
+    height: fit-content;
+    padding-top: 20px;
+    margin-right: 15px;
+}
+.firstSection__authorText{
+    font-size: large;
+    margin-bottom: 5px;
+}
+.firstSection__author{
+    font-size: 15px;
+}
+.secondSection{
+    /* display: grid; */
+    background-color: rgb(6, 23, 38);
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    padding: 40px 20px;
+    
+}
+.secondSection__button{
+    border: solid #8acfe5;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+    padding: 15px;
+    margin: 30px;
+    color: #8acfe5;
+}
+.thirdSection{
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    background-color: rgb(6, 23, 38);
+    color: white;
+}
+.thirdSection__imageOne, .thirdSection__imageTwo{
+    /* height: 80px; */
+    width: 100vw;
 }
